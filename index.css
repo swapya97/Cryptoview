@@ -14,6 +14,9 @@ h3,h2,h4 {
 .footer_h3 {
   padding-top: 10px;
 }
+.footer p{
+  color: rgb(114, 114, 114);
+}
 .blob {
   position: absolute;
   left: -250px;
