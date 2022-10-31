@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  background-color: #e9eff0;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,
+p {
+  margin: 0px;
+}
+h3,h2,h4 {
+  font-family: "Nunito", sans-serif;
+}
+.footer_h3 {
+  padding-top: 10px;
+}
+.blob {
+  position: absolute;
+  left: -250px;
+  top: -100px;
+  width: 1200px;
+  height: 1000px;
+  opacity: 50%;
+}
+
+.main > h1 {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f1f2f4;
+  height: 400px;
+  padding: 50px;
+  border-top: 7px solid gray;
+  border-left: 7px solid gray;
+  width: 500px;
+}
+h2 {
+  position: relative;
+  bottom: 10px;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  background-color: #404b59;
+  color: aliceblue;
+  justify-content: flex-start;
+}
+nav img{
+  display: flex;
+  align-items: center;
+  width: 50px;
+}
+nav h1{
+  display: flex;
+  align-items: center;
+}
+.flex_container {
+  display: flex;
+  gap: 15px;
+}
+.main {
+  padding: 5rem;
+  justify-content: space-evenly;
+  font-size: xx-large;
+  align-items: center;
+}
+.main > img {
+  width: 280px;
+  position: relative;
+  left: 10vw;
+  top: -10vh;
+}
+.image2 {
+  position: relative;
+  bottom: 120px;
+  opacity: 80%;
+}
+.blob2 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  bottom: 35vh;
+}
+.blob3 {
+  position: absolute;
+  top: -50px;
+  right: -40px;
+}
+.float_right {
+  width: 140px;
+}
+
+.trending_coin {
+  background-color: #d1d1d1e0;
+  padding: 2rem;
+  border-radius: 15px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 94vw;
+}
+
+.features {
+  padding: 5rem;
+  background-color: #a7b7bd;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.features > .card {
+  text-align: center;
+  padding: 1.5rem;
+  width: 25vw;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px black;
+}
+.card > img {
+  width: 20%;
+}
+.card {
+  width: 200px;
+  height: 90px;
+  padding: 10px;
+  padding-right: 30px;
+  border-radius: 5px;
+  border: solid 2px gray;
+  background-color: rgb(255, 255, 255);
+}
+.card:hover{
+  box-shadow:10px 10px 2px  rgb(27, 25, 25) ;
+  position: relative;
+  top: -5px;
+  left: -5px;
+
+}
+.footer {
+  padding: 3rem;
+  text-align: center;
+}
+.flaticon {
+  width: 25px;
+  height: 25px;
+}
+@media screen and (max-width:600px) {
+  nav h1{
+    display: none;
+  }
+}
+.anchor_btn{
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #ffffff;
+ 
+  height: 20px;
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+}
+.anchor_btn:hover{
+  background-color: #5e5e5e;
+  color: white;
+}

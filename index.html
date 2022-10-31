@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoView</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Pacifico&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/421270a333.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<!-- colorpalet -->
+<!-- https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529 -->
+
+
+<body>
+    <nav class="flex_container">
+        <div> <img src="./chainlink.png" alt="nav_logo"></div>
+        <h1> CryptoView</h1>
+        <div>
+        <a href="search.html" class="anchor_btn">Search</a> 
+         </div>
+    </nav>
+    <!-- main section containing main heading & image -->
+    <section class="main flex_container">
+        <!-- section 1 -->
+        <h1> <span class="crypto"> CryptoView</span>
+            <br>
+            <br> The Future of
+            <br> Digital Currency..
+
+
+
+        </h1>
+
+        <div class="blob">
+            <svg viewBox="-80 -80 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <g transform="translate(119.86422729492188, -32.50849914550781)">
+                    <defs>
+                        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color: rgb(209, 216, 224);"></stop>
+                            <stop offset="100%" style="stop-color: rgb(74, 85, 104);"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path class="blob"
+                        d="M398.5,363.5Q324,477,225,408.5Q126,340,136.5,257.5Q147,175,208.5,181.5Q270,188,371.5,219Q473,250,398.5,363.5Z"
+                        fill="url(#gradient)"></path>
+                </g>
+            </svg>
+        </div>
+        <img src="business1.png" alt="">
+
+        <svg class="blob2" width="300" height="200" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+
+
+
+
+                <pattern id="imageId" patternUnits="userSpaceOnUse" width="1000" height="1000">
+                    <image href="image2.jpg" x="0" y="0" width="1000" height="1000" />
+                </pattern>
+
+
+
+                <clipPath id="shape">
+                    <path fill="currentColor" d="M633.5,610Q373,720,331.5,428.5Q290,137,592,318.5Q894,500,633.5,610Z">
+                    </path>
+                </clipPath>
+            </defs>
+
+
+
+            <g clip-path="url(#shape)">
+                <path fill="url(#imageId)" d="M633.5,610Q373,720,331.5,428.5Q290,137,592,318.5Q894,500,633.5,610Z" />
+            </g>
+
+
+
+        </svg>
+
+
+
+    </section>
+    <!-- second section containing top 4/5 coin information -->
+    <section class="trending_coin flex_container">
+        <!-- section 2 -->
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3 class="right"> <a href="file:///G:/Geekster/Live%20Project/details.html?coin=bitcoin"></a> BitCoin
+                </h3>
+                <p class="right">₹<span id="bitcoin_price_container"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>Ethereum </h3>
+                <p> ₹ <span id="ethereum_price_container"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>Cardano</h3>
+                <p> ₹ <span id="cardano_price_container"></span></p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>Polkadot </h3>
+                <p> ₹ <span id="polkadot_price_container"></span></p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>Helium </h3>
+                <p> ₹ <span id="helium_price_container"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>BinanceCoin </h3>
+                <p> ₹ <span id="binancecoin_price_container"></span></p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/512.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>Stellar </h3>
+                <p> ₹ <span id="stellar_price_container"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/2.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>LiteCoin </h3>
+                <p> ₹ <span id="litecoin_price_container"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/825.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>Tether</h3>
+                <p> ₹ <span id="dogecoin_price_container"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/74.png" alt="coin image" class="float_name">
+            <div class="float_right">
+                <h3>Dogecoin </h3>
+                <p> ₹ <span id="tether_price_container"></span></p>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <!-- third section containing the main features of the website -->
+    <section class="features flex_container">
+        <!-- section 3 -->
+        <div class="card">
+            <h2>Free</h2>
+            <p>This is completly free to use website. we do not show any adds and we do not have any payment activity.
+            </p>
+        </div>
+        <div class="card">
+            <h2>Historical Data</h2>
+            <p>We show graphical representation of historical data of Cryptocurrencies. the graphs can be selected from
+                24 hours upto 1 year. </p>
+        </div>
+        <div class="card">
+            <h2>100+ Coins</h2>
+            <p>We show the data of many popular Cryptocurrencies and even have a search functionality for a smoother
+                User Experience.
+            </p>
+        </div>
+
+
+
+    </section>
+    <!-- this is the footer containing copyright, created by etc. -->
+    <div class="footer">
+
+        <a href="#"><img class="flaticon" src="facebook.png" alt=""></a>
+        &emsp;
+        <a href="#"><img class="flaticon" src="linkedin.png" alt=""></a>
+        &emsp;
+        <a href="#"><img class="flaticon" src="instagram.png" alt=""></a>
+        &emsp;
+        <a href="#"><img class="flaticon" src="twitter.png" alt=""></a>
+        <h4 class="footer_h3">Copyright &copy Swapnil &amp; Team </h4>
+        <h4>2022 Cryptoview. All Rights Reserved.</h4>
+        <h4>This website made with love from INDIA.. </h4>
+
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>

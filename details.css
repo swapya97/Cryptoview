@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+.flex_container {
+  display: flex;
+}
+.discription_price {
+  justify-content: space-around;
+}
+.discription {
+  justify-content: space-evenly;
+  width: 1000px;
+}
+.discription > img {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgb(190, 154, 154),
+    rgb(255, 255, 255)
+  );
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.margin_top {
+  margin-top: 3.5rem;
+}
+.BITCOIN {
+  margin: 20px;
+}
+.para {
+  position: relative;
+  top: 80px;
+  left: -92px;
+}
+.historical {
+  margin: auto;
+  position: relative;
+  height: 80vh;
+  width: 120vh;
+}
+.margin_top {
+  margin-top: 100px;
+}

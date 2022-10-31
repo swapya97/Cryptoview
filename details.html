@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Pacifico&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="details.css" />
+  </head>
+
+  <body>
+    <!-- This is the navigation bar -->
+    <nav>
+      <h3>Detais page</h3>
+    </nav>
+
+    <section class="discription_price flex_container">
+      <!--   discription container  -->
+      <div class="discription flex_container">
+        <img src="" id="coin_img" alt="" />
+        <h1 class="BITCOIN" id="coin_name"></h1>
+        <p class="para fr" id="coin_description"></p>
+      </div>
+      <!-- Price container -->
+      <div class="price">
+        <table class="margin_top">
+          <tbody>
+            <tr>
+              <td>INR</td>
+              <td id="inr_price"></td>
+            </tr>
+            <tr>
+              <td>USD</td>
+              <td id="usd_price"></td>
+            </tr>
+            <tr>
+              <td>EUR</td>
+              <td id="eur_price"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <!-- Historical char container  -->
+    <section class="historical margin_top">
+      <canvas class="graph" id="myChart"></canvas>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="details.js"></script>
+  </body>
+</html>
